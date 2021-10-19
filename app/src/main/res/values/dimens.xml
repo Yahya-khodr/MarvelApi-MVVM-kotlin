@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_zero">0dp</dimen>
+    <dimen name="margin_xxxsmall">4dp</dimen>
+    <dimen name="margin_xxsmall">8dp</dimen>
+    <dimen name="margin_xsmall">12dp</dimen>
+    <dimen name="margin_small">14dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_xlarge">24dp</dimen>
+    <dimen name="margin_xxlarge">32dp</dimen>
+
+    <dimen name="padding_zero">0dp</dimen>
+    <dimen name="padding_xxxxsmall">4dp</dimen>
+    <dimen name="padding_xxxsmall">6dp</dimen>
+    <dimen name="padding_xxsmall">8dp</dimen>
+    <dimen name="padding_xsmall">12dp</dimen>
+    <dimen name="padding_small">14dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">20dp</dimen>
+    <dimen name="padding_xlarge">24dp</dimen>
+    <dimen name="padding_xxlarge">32dp</dimen>
+    <dimen name="padding_xxxlarge">45dp</dimen>
+    <dimen name="padding_xxxxlarge">66dp</dimen>
+    <dimen name="padding_xxxxxxlarge">76dp</dimen>
+
+    <dimen name="elevation_zero">0dp</dimen>
+    <dimen name="elevation_xxsmall">2dp</dimen>
+    <dimen name="elevation_xsmall">4dp</dimen>
+    <dimen name="elevation_small">8dp</dimen>
+    <dimen name="elevation_medium">16dp</dimen>
+    <dimen name="elevation_large">20dp</dimen>
+
+    <dimen name="corner_radius_zero">0dp</dimen>
+    <dimen name="corner_radius_xxxxsmall">4dp</dimen>
+    <dimen name="corner_radius_xxxsmall">8dp</dimen>
+    <dimen name="corner_radius_xxsmall">10dp</dimen>
+    <dimen name="corner_radius_xsmall">16dp</dimen>
+    <dimen name="corner_radius_small">20dp</dimen>
+    <dimen name="corner_radius_medium">25dp</dimen>
+    <dimen name="corner_radius_large">35dp</dimen>
+    <dimen name="corner_radius_xlarge">40dp</dimen>
+    <dimen name="corner_radius_xxlarge">50dp</dimen>
+    <dimen name="corner_radius_xxxlarge">75dp</dimen>
+
+    <dimen name="text_size_xxsmall">10sp</dimen>
+    <dimen name="text_size_xsmall">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">21sp</dimen>
+    <dimen name="text_size_xxlarge">24sp</dimen>
+    <dimen name="text_size_xxxlarge">28sp</dimen>
+    <dimen name="text_size_xxxxlarge">32sp</dimen>
+
+</resources>

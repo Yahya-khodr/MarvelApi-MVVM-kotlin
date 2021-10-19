@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/image_background"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/background_image"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_900_alpha_80"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            tools:context=".ui.character_detail.CharacterDetailFragment">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/iv_icon"
+                app:shapeAppearanceOverlay="@style/customRoundedImageView"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/image_logo"
+                android:contentDescription="@string/logo"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_icon"
+                android:paddingHorizontal="@dimen/padding_medium">
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:textSize="@dimen/text_size_xxxxlarge"
+                    android:paddingTop="@dimen/padding_large"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/tv_description_title"
+                    android:textSize="@dimen/text_size_large"
+                    android:paddingTop="@dimen/padding_xxxlarge"
+                    android:text="@string/description"
+                    android:textColor="@color/pink_a100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:textSize="@dimen/text_size_medium"
+                    android:paddingTop="@dimen/padding_small"
+                    android:paddingBottom="@dimen/padding_medium"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <include
+                    layout="@layout/layout_recycler"
+                    android:id="@+id/layout_comics"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <include
+                    layout="@layout/layout_recycler"
+                    android:id="@+id/layout_events"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <include
+                    layout="@layout/layout_recycler"
+                    android:id="@+id/layout_series"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <include
+                    layout="@layout/layout_recycler"
+                    android:id="@+id/layout_stories"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mcv_back_button"
+        style="@style/MaterialCardView.RightRadius"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:animateLayoutChanges="true"
+        android:backgroundTint="@color/blue_grey_800"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/ib_back"
+            style="@style/ImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/search_button"
+            android:src="@drawable/ic_back"
+            app:tint="@color/white" />
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

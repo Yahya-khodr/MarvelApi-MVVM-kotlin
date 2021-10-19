@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/MarvelApi_MVVM_kotlin/app/src/main/res/drawable/ic_back.xml" value="0.22962962962962963" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarvelApi_MVVM_kotlin/app/src/main/res/drawable/ic_search.xml" value="0.190625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarvelApi_MVVM_kotlin/app/src/main/res/layout/activity_home_host.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarvelApi_MVVM_kotlin/app/src/main/res/layout/fragment_character_detail.xml" value="0.1265625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarvelApi_MVVM_kotlin/app/src/main/res/layout/item_recycler_layout.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MarvelApi_MVVM_kotlin/app/src/main/res/layout/layout_search.xml" value="0.17447916666666666" />
       </map>
     </option>
   </component>

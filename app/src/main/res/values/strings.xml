@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">MarvelApi_MVVM_kotlin</string>
+    <string name="app_name">Marvel App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="background_image">background image</string>
+    <string name="logo">logo</string>
+    <string name="search_button">search button</string>
+    <string name="character_image">character image</string>
+    <string name="search_for_a_character">Search for a character…</string>
+    <string name="cancel">Cancel</string>
+    <string name="description">Description</string>
+    <string name="comics">Comics</string>
+    <string name="stories">Stories</string>
+    <string name="series">Series</string>
+    <string name="events">Events</string>
 </resources>

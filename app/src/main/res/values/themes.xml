@@ -12,5 +12,72 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:overScrollMode">never</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+    <style name="MaterialCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/corner_radius_medium</item>
+        <item name="cardElevation">@dimen/elevation_xxsmall</item>
+    </style>
+
+
+    <style name="MaterialCardView.BottomRadius" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">@dimen/elevation_xxsmall</item>
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearance_custom_corners
+        </item>
+    </style>
+    <style name="MaterialCardView.RightRadius" parent="Widget.MaterialComponents.CardView">
+        <item name="cardElevation">@dimen/elevation_xxsmall</item>
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearance_custom_right_corners
+        </item>
+    </style>
+
+    <style name="ShapeAppearance_custom_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">@dimen/corner_radius_xlarge</item>
+        <item name="cornerSizeBottomRight">@dimen/corner_radius_xlarge</item>
+    </style>
+    <style name="ShapeAppearance_custom_right_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">@dimen/corner_radius_medium</item>
+        <item name="cornerSizeBottomRight">@dimen/corner_radius_medium</item>
+    </style>
+
+    <style name="ImageButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">
+            ?attr/selectableItemBackgroundBorderless
+        </item>
+        <item name="android:padding">@dimen/padding_xxsmall</item>
+    </style>
+
+    <style name="TextInputEditText">
+        <item name="android:padding">@dimen/padding_medium</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:maxLength">100</item>
+    </style>
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="background">@color/white</item>
+        <item name="boxBackgroundColor">@color/background_color</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/corner_radius_medium</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/corner_radius_medium</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/corner_radius_medium</item>
+        <item name="boxCornerRadiusTopStart">@dimen/corner_radius_medium</item>
+        <item name="android:padding">@dimen/padding_zero</item>
+        <item name="hintEnabled">false</item>
+    </style>
+
+    <style name="customRoundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">0dp</item>
+        <item name="cornerSizeBottomLeft">@dimen/corner_radius_xlarge</item>
+        <item name="cornerSizeBottomRight">@dimen/corner_radius_xlarge</item>
     </style>
 </resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_search"
+    style="@style/MaterialCardView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/corner_radius_xxsmall">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/il_search"
+        style="@style/TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/padding_xxsmall"
+        android:paddingVertical="@dimen/padding_xxxsmall"
+        app:endIconMode="custom"
+        app:startIconTint="@color/white"
+        app:startIconDrawable="@drawable/ic_search">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_search"
+            style="@style/TextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="@dimen/padding_xlarge"
+            android:textColorHint="@color/white"
+            android:hint="@string/search_for_a_character"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+
