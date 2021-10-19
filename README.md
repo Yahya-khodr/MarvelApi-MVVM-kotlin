@@ -39,5 +39,5 @@ private const val PRIVATE_KEY = ""
 ***
 The application overview demo is in the link here below 
 ---
-MarvelApp functionality tap[here ](https://drive.google.com/file/d/1-BT5aomVjb_1DTUGCOVvs2OYfBv7KdfG/view?usp=sharing)
+MarvelApp functionality tap: [Here ]  (https://drive.google.com/file/d/1-BT5aomVjb_1DTUGCOVvs2OYfBv7KdfG/view?usp=sharing)
 
